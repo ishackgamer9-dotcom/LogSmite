@@ -1,0 +1,23 @@
+{
+  "name": "autolog",
+  "version": "1.0.0",
+  "private": true,
+  "main": "server.js",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "dev": "NODE_ENV=development node server.js"
+  },
+  "dependencies": {
+    "@google/genai": "^2.10.0",
+    "@octokit/app": "^16.1.2",
+    "@octokit/rest": "^22.0.1",
+    "autolog": "file:",
+    "axios": "^1.18.1",
+    "body-parser": "^1.20.2",
+    "dotenv": "^17.4.2",
+    "express": "^4.18.2"
+  }
+}
